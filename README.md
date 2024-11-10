@@ -10,9 +10,9 @@
 为了方便管理 不同的版本被存放在不同的分支中  
 主分支中未存储任何版本  
 
-当前分支：
+当前分支：main  
 
-[main](https://github.com/bitcomet-post-bar/BC-official/tree/main) | [SimpleBT](https://github.com/bitcomet-post-bar/BC-official/tree/SimpleBT) | [V0.x](https://github.com/bitcomet-post-bar/BC-official/tree/V0.x) | [V1.x](https://github.com/bitcomet-post-bar/BC-official/tree/V1.x) | [V2.x](https://github.com/bitcomet-post-bar/BC-official/tree/V2.x)  
+main | [SimpleBT](https://github.com/bitcomet-post-bar/BC-official/tree/SimpleBT) | [V0.x](https://github.com/bitcomet-post-bar/BC-official/tree/V0.x) | [V1.x](https://github.com/bitcomet-post-bar/BC-official/tree/V1.x) | [V2.x](https://github.com/bitcomet-post-bar/BC-official/tree/V2.x)  
 
 ---
 
