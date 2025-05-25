@@ -2,6 +2,8 @@
 
 | 版本 | 更新日期 （年.月.日） | 文件大小（字节） | MD5 | SHA256 |
 | --- | --- | --- | --- |--- |
+| [BitComet\_2.13.zip](https://github.com/bitcomet-post-bar/BC-official/raw/refs/heads/V2.x/V2.x/BitComet_2.13.zip) | 2025.04.19 | 45,250,165 | a4052173fac6afb569ea51e7ada9ea84 | f3417a01c0d6550d702e97d16d98528b25302c2ce2a884da824307aa6c4e6477 |
+| [BitComet\_2.12.zip](https://github.com/bitcomet-post-bar/BC-official/raw/refs/heads/V2.x/V2.x/BitComet_2.12.zip) | 2025.01.14 | 45,056,909 | 50e04927f9209a6fe2550d24a73817ab | 553aebf806724b8a06dee11f2ff35edfef621336495e0b1b14c9458942db9a5e |
 | [BitComet\_2.11.zip](https://github.com/bitcomet-post-bar/BC-official/raw/refs/heads/V2.x/V2.x/BitComet_2.11.zip) | 2024.11.12 | 36,524,555 | cb245c78fdf20c3445676533eeabc89b | d083d3dfb979cbd3787535e9de14bd2bd2e5a3e072864674c31bdb9cbfd631e0 |
 | [BitComet\_2.10.zip](https://github.com/bitcomet-post-bar/BC-official/raw/refs/heads/V2.x/V2.x/BitComet_2.10.zip) | 2024.10.09 | 36,472,426 | d988475bcf5e1ac7aa03fabfcf307be5 | 4f702da3e2a50d019a05fac9ab7214f770690702374548af3bf539cda5688304 |
 | [BitComet\_2.09.zip](https://github.com/bitcomet-post-bar/BC-official/raw/refs/heads/V2.x/V2.x/BitComet_2.09.zip) | 2024.08.20 | 36,321,463 | 0b8189f5a6dc2e8a876b1a0b6de3b78c | d5a6d89b0da61211ee7d08ae07f9572da196030b7aeebe04f0aa7dbc285979df |
