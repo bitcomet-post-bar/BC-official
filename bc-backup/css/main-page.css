@@ -1,0 +1,81 @@
+﻿.backbone {
+	width: 60%;
+	height: 100%;
+	position: static;
+	margin-top: 18px;
+	margin-left: auto;
+	margin-right:auto;
+}
+.bc-logo {
+	padding: 1.2px;
+	background-color: #CCCCCC;
+	/*background-image:url('../img/title_bg.gif');*/
+	height: 90px;
+	text-align: center;
+	vertical-align: middle;
+}
+.icon-and-title {
+	text-align: left;
+	font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	padding-top: 5pt;
+}
+.text {
+	text-align: left;
+	font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+	font-size: 9pt;
+	text-indent: 24pt;
+	padding-top: 5pt;
+}
+.title2 {
+	font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+	font-size: 12pt;
+	text-align: left;
+	font-weight: bold;
+	padding-left: 2em;
+	padding-top: 5pt;
+}
+.border {
+	border-color: #CBCBCB;
+	border-bottom-style: dashed;
+	border-width: 0.01pt
+}
+
+.border-2 {
+	border-bottom-style: solid;
+	border-bottom-width: 1.5pt;
+	border-bottom-color: #CBCBCB;
+	height: 9pt;
+}
+
+
+.padding {
+	text-indent: 24pt;
+	text-align: left;
+	padding-bottom: 10pt;
+}
+
+
+.txt2 {
+	font-family: Verdana;
+	font-size: 18pt;
+	color: #FF6600;
+}
+
+.txt-sbt-1 {
+	font-family: Verdana;
+	font-size: 18pt;
+	color: #3131FF;
+}
+.txt-sbt-2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18pt;
+	color: #007D00;
+}
+
+
+.foot {
+	padding-bottom: 5pt;
+	text-align:center;
+}

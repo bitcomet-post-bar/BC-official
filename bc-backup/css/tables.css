@@ -1,0 +1,219 @@
+﻿/* 表格交错背景 */
+/* sharepoint 2007的内置预览无法显示 但不会报错 外部浏览器显示正常 */
+
+/* 给偶数行设置背景色 */
+ tr:nth-child(even) {
+    background-color: #F6F6F6;
+} 
+
+/* 给奇数行设置背景颜色 */
+
+tr:nth-child(odd) {
+    background-color: #D9D9D9;
+} 
+
+/* 鼠标经过时背景变色，增加易读性 */
+/* 变色排除第一行 */
+ tr:hover:not(.table-header-custom) {
+    
+	background-color:#2E6BC6; 
+}
+
+/* 选中变成白色 */
+/* 排除选中返回主页链接 */
+
+tr:hover a:not([href$="index.htm"]) {
+    color: white;
+}
+
+/* 去除表格边框 */
+
+table {
+    border: none;             /* 去掉外边框 */
+    border-collapse: collapse; /* 核心：合并边框，防止边框间隙残留 */
+    border-spacing: 0;        /* 确保单元格之间没有任何间距 */
+}
+
+table th {
+    border: none;             /* 去掉所有单元格的边框 */
+}
+
+table td {
+    border: none;             /* 去掉所有单元格的边框 */
+}
+
+/* 表格根据内容自动调整 */
+
+table {
+    width: auto;           /* 核心：告诉浏览器不要强行拉伸表格 */
+    border-collapse: collapse;
+}
+
+
+ th {
+    white-space: nowrap;   /* 可选：防止文字在单元格内自动换行，强迫表格横向撑开 */
+    padding-left: 1em;         /* 留点呼吸空间，不然内容会挤在一起 */
+} 
+
+
+
+ td {
+    white-space: nowrap;   /* 可选：防止文字在单元格内自动换行，强迫表格横向撑开 */
+    padding-left: 1em;         /* 留点呼吸空间，不然内容会挤在一起 */
+} 
+
+
+
+
+
+
+
+/* 表格标题样式 */
+
+/* 使用类名定义，方便手动调用 */
+.table-header-custom {
+
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    background-color:#D9D9D9;
+}
+
+/* 设置表格每行的 */
+
+tr {
+    /* 1. 字体：优先微软雅黑 */
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+    
+    /* 2. 字号：小四对应 12pt */
+    font-size: 12pt;
+        
+    /* 4. 水平居中 */
+    text-align: center;
+
+    /* 5. 建议补充：垂直居中（如果标题行比较高） */
+    /* vertical-align: middle; */
+
+    /* 6. 建议补充：增加一点内边距，防止文字贴边 */
+    /* padding-left: 100px; */
+    
+    /* 这两项对行无效 */
+    
+}
+
+/* 页面标题 */
+
+.page-title {
+	
+	padding-left: 2pt;
+	text-align: left;
+	font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	display: inline-block;
+
+}
+
+/* --- 返回主页链接样式 --- */
+
+.home-page-link {
+	
+	text-align: left;
+	font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	padding-left: 2pt;
+	padding-bottom: 2pt;
+	display: inline-block;
+
+}
+
+
+/* --- 超链接修饰 重新声明 --- */
+
+a:visited {
+
+    text-decoration: none ;
+    color:#551A8B;
+    
+}
+
+.home-page-link a:link {
+
+    text-decoration: none ;
+    color:#0000EE;  
+}
+
+.home-page-link a:hover {
+
+    text-decoration: underline; 
+}
+
+/* --- 图片和文字对齐 --- */
+
+.img-icon {
+	
+	vertical-align: -10pt;
+}
+
+
+/* 设置表格距离顶部元素位置 */
+
+.table-custom {
+	margin-top: 5px;
+}
+
+
+/* --- 表格中的超链接修饰 --- */
+
+.table-custom a:link {
+
+    text-decoration: none ;
+     
+}
+
+.table-custom a:hover {
+
+    text-decoration: underline; 
+}
+
+
+
+/* --- 等宽字体用于显示校验值 --- */
+
+.code-style {
+    /* Consolas: Windows 环境下最清晰的等宽字体
+       Monaco: Mac 环境下经典的等宽字体
+       Lucida Console: 老旧 Windows 的保底选择
+       monospace: 系统的终极兜底等宽字体
+    */
+    font-family: Consolas, Monaco, "Lucida Console", "Liberation Mono", monospace;
+    padding-left: 2em;
+
+}
+
+/* --- 页脚 --- */
+
+/* --- 由于在表格内部需要重新声明背景颜色以防止被交错显示影响 --- */
+/* --- 使用透明或继承依然会被交错显示影响 --- */
+
+.foot-padding {
+
+	/*font-size: 6px;*/
+	height: 6px;
+	background-color:#F6F6F6;
+}
+
+
+.foot-border{
+
+	background-color:#F6F6F6;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	text-align:left;
+}
+
+
+
