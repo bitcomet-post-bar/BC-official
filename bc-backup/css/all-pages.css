@@ -1,0 +1,19 @@
+﻿/* --- 页面修饰 --- */
+
+body {background-color: #F6F6F6; }/* 使用十六进制颜色 */
+
+
+/* --- 超链接修饰 --- */
+
+/* 1. 基础状态（包括未访问和已访问） */
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+/* 2. 悬停状态（必须写在 link 和 visited 之后） */
+
+a:hover {
+    text-decoration: underline;
+}
+
